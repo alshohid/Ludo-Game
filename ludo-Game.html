@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ludo game</title>
+    
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="ludo.css">
+</head>
+<body>
+    <div class="container"> 
+        <section>
+            <audio id="ludo-music">
+
+                <source src="sounds/ludoMusic.mp3">
+            </audio>
+            <audio id="victory-music">
+
+                <source src="sounds/final Music.mp3">
+            </audio>
+            <audio id="draw-music">
+
+                <source src="sounds/drawmusic.mp3">
+            </audio>
+        </section>
+
+        <h1 class="ludo">Ludo Game</h1>
+
+        <div class="dice">
+            <p>Player 1</p>
+            <img src="images/1.gif" alt="dice" id="check1">
+        </div>
+        
+        <div class="dice">
+            <p>Player 2</p>
+            <img src="images/5.gif" alt="dice" id="check2">
+        </div>
+
+
+<br>
+
+      
+        <button class="btn" onclick="play()">Play</button>
+       
+       
+
+
+    </div>
+    
+
+
+    <script src="ludo.js"></script>
+</body>
+</html>
